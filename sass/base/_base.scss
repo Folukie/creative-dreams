@@ -1,0 +1,17 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    color: black;
+    font-weight: 400;
+
+    @include respond (tab-land) {
+        font-size: 56.25%;
+    }
+
+    @include respond (tab-port) {
+        font-size: 50%;
+    }
+}

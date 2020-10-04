@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    padding: 9rem 0;
+
+    @include respond (phone) {
+        padding: 17rem 2rem;
+
+    }
+
+    &__head {
+        font-size: 7rem;
+        font-weight: 700;
+        width: 60%;
+        margin: auto;
+
+        @include respond (phone) {
+            width: 100%;
+        font-size: 6rem;
+
+        }
+    }
+
+    &__text {
+        font-size: 2.5rem;
+        padding-top: 3rem;
+
+        @include respond (phone) {
+            width: 70%;
+            MARGIN: AUTO;
+        }
+    }
+
+}
+
+.footer {
+    text-align: center;
+    margin-top: 9rem;
+
+    &__text {
+        font-size: 2.1rem;
+        padding-bottom: 4rem;
+    }
+
+    &__copyright {
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-top: 1.5rem;
+    }
+}

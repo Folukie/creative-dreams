@@ -1,0 +1,97 @@
+body {
+  font-family: 'Manrope', sans-serif; }
+
+html {
+  font-size: 62.5%;
+  color: black;
+  font-weight: 400; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+
+.sidenav {
+  padding-top: 3rem; }
+
+.nav-link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  letter-spacing: .1rem; }
+  .nav-link:not(:last-child) {
+    padding-bottom: 1rem; }
+  .nav-link:hover {
+    color: black;
+    text-decoration: none; }
+
+.nav-1 {
+  float: right;
+  padding-right: 2rem; }
+
+.nav-2 {
+  float: left;
+  padding-left: 2rem;
+  position: fixed; }
+
+.header {
+  text-align: center;
+  padding: 9rem 0; }
+  @media (max-width: 37.5em) {
+    .header {
+      padding: 17rem 2rem; } }
+  .header__head {
+    font-size: 7rem;
+    font-weight: 700;
+    width: 60%;
+    margin: auto; }
+    @media (max-width: 37.5em) {
+      .header__head {
+        width: 100%;
+        font-size: 6rem; } }
+  .header__text {
+    font-size: 2.5rem;
+    padding-top: 3rem; }
+    @media (max-width: 37.5em) {
+      .header__text {
+        width: 70%;
+        MARGIN: AUTO; } }
+
+.footer {
+  text-align: center;
+  margin-top: 9rem; }
+  .footer__text {
+    font-size: 2.1rem;
+    padding-bottom: 4rem; }
+  .footer__copyright {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-top: 1.5rem; }
+
+.gallery__img {
+  width: 100%;
+  background-repeat: no-repeat; }
+
+@media (max-width: 37.5em) {
+  .gallery {
+    padding: 0 4rem; } }
+
+.design {
+  width: 30%;
+  margin: auto;
+  padding: 9rem 0;
+  text-align: center; }
+  @media (max-width: 37.5em) {
+    .design {
+      width: 100%; } }
+  .design__sub {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: 4rem; }
+    @media (max-width: 37.5em) {
+      .design__sub {
+        width: 90%; } }

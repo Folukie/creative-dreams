@@ -1,0 +1,31 @@
+.gallery {
+
+    &__img {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    @include respond (phone) {
+        padding:0 4rem;
+    }
+}
+
+.design {
+    width: 30%;
+    margin: auto;
+    padding: 9rem 0;
+    text-align: center;
+    @include respond (phone) {
+        width:100%;
+    }
+
+    &__sub {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        font-weight: 400;
+        line-height: 4rem;
+        @include respond (phone) {
+            width:90%;
+        }
+    }
+}
