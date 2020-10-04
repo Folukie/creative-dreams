@@ -1,5 +1,5 @@
 body {
-  font-family: 'Manrope', sans-serif; }
+  font-family: 'Work Sans', sans-serif; }
 
 html {
   font-size: 62.5%;
@@ -95,3 +95,6 @@ html {
     @media (max-width: 37.5em) {
       .design__sub {
         width: 90%; } }
+
+.icon {
+  float: right; }
